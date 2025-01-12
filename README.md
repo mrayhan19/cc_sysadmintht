@@ -2,13 +2,13 @@
 
 This is the repo for CODING COLLECTIVE Sytem Administrator Take Home Technical Test
 
-[TEST CASE 1]
+## **[ TEST CASE 1 ]**
 
 - COUNT THE LAST 10 MINUTES OF HTTPS 500s
   
 To run the script for counting 500 apache response code, simply go to TESTCASE1 and then run the script using the following command:
 
-##bash 1_count_500s_apache.sh**
+**ash 1_count_500s_apache.sh**
 
 or you can use:
 chmod +x 1_count_500s_apache.sh && ./1_count_500s_apache.sh
@@ -16,17 +16,15 @@ chmod +x 1_count_500s_apache.sh && ./1_count_500s_apache.sh
 
 - DOCKER SONARQUBE SETUP
 
-Notes: according to below link (SonarQube Community Forum):
+**Notes:** according to below link (SonarQube Community Forum):
 https://community.sonarsource.com/t/when-did-sonarqube-started-supporting-golang/81545
 SonarQube has already supported Go since 2018 and later, thus I do not add sonar-golang plugin
 
 To run the docker sonarqube with postgres db, simply go to TESTCASE1/2_docker-sonarqube-setup and run the following command:
 
-##bash init-sonar.sh**
+**bash init-sonar.sh**
 
-
-
-[TEST CASE 2]
+## **[ TEST CASE 2 ]**
 
 **Notes:** For task number 1 and 3 I make it in to one script named 1_3_lemp-laravel-helloworld-dockercompose.sh
        To run script for task 1 and 3, simply go to TESTCASE2 and run: **bash 1_3_lemp-laravel-helloworld-dockercompose.sh**
