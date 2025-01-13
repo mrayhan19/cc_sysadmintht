@@ -8,7 +8,7 @@ This is the repo for CODING COLLECTIVE Sytem Administrator Take Home Technical T
   
 To run the script for counting 500 apache response code, simply go to TESTCASE1 and then run the script using the following command:
 
-**ash 1_count_500s_apache.sh**
+**bash 1_count_500s_apache.sh**
 
 or you can use:
 chmod +x 1_count_500s_apache.sh && ./1_count_500s_apache.sh
