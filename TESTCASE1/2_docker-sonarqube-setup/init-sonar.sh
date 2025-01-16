@@ -8,6 +8,6 @@
 sysctl -w vm.max_map_count=262144
 
 # Start the sonarqube stack
-docker compose up -d && docker compose ps &&echo -e '\n"Sonarqube Docker is started. To stop it, run "docker compose down"\n'
+docker compose up -d && docker compose ps && echo -e '\n"Sonarqube Docker is started. To stop it, run "docker compose down"\n'
 
 
